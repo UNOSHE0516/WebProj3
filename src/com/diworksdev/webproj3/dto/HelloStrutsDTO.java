@@ -8,7 +8,7 @@ public class HelloStrutsDTO {
 		return result;
 	}
 
-	public void serResult(String result){
+	public void setResult(String result){
 		this.result = result;
 	}
 }
