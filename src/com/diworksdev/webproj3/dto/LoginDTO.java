@@ -16,7 +16,7 @@ public class LoginDTO {
 		return password;
 	}
 
-	public void serPassword(String password){
+	public void setPassword(String password){
 		this.password = password;
 	}
 }
