@@ -21,6 +21,9 @@
 	<result name="error">loginError.jsp</result>
  </action>
 
+ <action name="inquiryAction" class="com.diworksdev.webproj3.action.InquiryAction" method="execute">
+ 	<result name="success">inquiry.jsp</result>
+ </action>
 
  </package>
 </struts>
