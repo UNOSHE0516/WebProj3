@@ -21,12 +21,11 @@
 	<result name="error">loginError.jsp</result>
  </action>
 
- <action name="inquiryAction" class="com.diworksdev.webproj3.action.InquiryAction" method="execute">
+ <action name="InquiryAction" class="com.diworksdev.webproj3.action.InquiryAction" method="execute">
  	<result name="success">inquiry.jsp</result>
  </action>
 
- <action name="InquiryCompleteAction" class="com.diworksdev.webproj3.action.InquiryCompleteAction"
- method="execute">
+ <action name="InquiryCompleteAction" class="com.diworksdev.webproj3.action.InquiryCompleteAction" method="execute">
  <result name="success">inquiryComplete.jsp</result>
  </action>
 
